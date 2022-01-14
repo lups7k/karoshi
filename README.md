@@ -5,6 +5,6 @@ the asm original code can be found at **shellcode.asm** and the shellcode can be
 
 compile the shellcode with:
 
-gcc shellcode.c -o shellcode -fno-stack-protector -z execstack -no-pie -m32
+<code>gcc shellcode.c -o shellcode -fno-stack-protector -z execstack -no-pie -m32 </code>
 
 <img src="https://i.imgur.com/QDdFjsC.png" />
