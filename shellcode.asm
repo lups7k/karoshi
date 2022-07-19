@@ -11,7 +11,7 @@ global main
 global _start
 
 main:
-_start
+_start:
 
 mov eax, 0x0b ; syscall execcve function
 push 0
